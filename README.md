@@ -4,8 +4,6 @@ This is the home for C3 Patch. It does not currently contain any of the actual p
 
 Build information is displayed next to each application. Please note: due to the way builds are currently being run, a failing build can often have a cascading effect on following builds. This means that a failed build may cause the following builds to fail as well for a short time (typically one day). This *does not* mean that we are publishing failing fixlets but instead just means that the fixlets generated are not passing testing and are also not being published.
 
-We are actively investigating ways to ensure that previous build failures don't effect future builds and hope to have this particular issue resolved soon but rest assured it does not impact the quality or timeliness of the content you receive!
-
 ## Currently Supported Applications (67):
 * 7-Zip ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/1/badge)
 * Air ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/2/badge)
