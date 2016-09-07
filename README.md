@@ -2,6 +2,14 @@
 
 This is the home for C3 Patch. It does not currently contain any of the actual patch content but is instead the home for issue tracking, information about C3 Patch, and the way to find out about build information.
 
+C3 Patch is a software catalog covering a large variety of commonly used third-party software. Our catalog makes patches and content for 70+ common applications. 
+
+The following content is provided for each supported application:
+
+* Deploy - Install an Application if there are no versions of the application installed on the system
+* Update - Update the Application if it is installed but out of date
+* Uninstall - Removes the Application if it is installed
+
 Build information is displayed next to each application. Please note: due to the way builds are currently being run, a failing build can often have a cascading effect on following builds. This means that a failed build may cause the following builds to fail as well for a short time (typically one day). This *does not* mean that we are publishing failing fixlets but instead just means that the fixlets generated are not passing testing and are also not being published.
 
 ## Currently Supported Applications (67):
