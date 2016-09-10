@@ -12,7 +12,7 @@ The following content is provided for each supported application:
 
 Build information is displayed next to each application. Please note: due to the way builds are currently being run, a failing build can often have a cascading effect on following builds. This means that a failed build may cause the following builds to fail as well for a short time (typically one day). This *does not* mean that we are publishing failing fixlets but instead just means that the fixlets generated are not passing testing and are also not being published.
 
-## Currently Supported Applications (73):
+## Currently Supported Applications (75):
 * 7-Zip ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/1/badge)
 * Air ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/2/badge)
 * Audacity ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/3/badge)
