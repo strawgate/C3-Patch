@@ -14,7 +14,9 @@ Build information is displayed next to each application. Please note: due to the
 
 ## Currently Supported Applications (75):
 
-# NOTE: We are redoing the Build Environment this week and so a number of these badges may say, "Failed" We are still generating content -- please contact William Easton (@Strawgate on the BigFix Forums) with any questions
+# NOTE: We are redoing the Build Environment this week and so a number of these badges may say, "Failed". We are still generating content.
+
+### Please contact William Easton (@Strawgate on the BigFix Forums) with any questions
 
 * 7-Zip ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/1/badge)
 * Air ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/2/badge)
