@@ -1,6 +1,6 @@
 # C3-Patch
 
-This is the home for C3 Patch. It does not currently contain any of the actual patch content but is instead the home for issue tracking, information about C3 Patch, and the way to find out about build information.
+This is the home for C3 Patch. It does not currently contain any of the actual patch content but is instead the home for issue tracking, information about C3 Patch, and the way to find out about build information. The home for patch content is on [BigFix.Me](https://bigfix.me/site/details/10397).
 
 C3 Patch is a software catalog covering a large variety of commonly used third-party software. Our catalog makes patches and content for 70+ common applications. 
 
