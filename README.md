@@ -18,79 +18,81 @@ Build information is displayed next to each application. Please note: due to the
 
 ### Please contact William Easton (@Strawgate on the BigFix Forums) with any questions
 
-* 7-Zip ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/1/badge)
-* Air ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/2/badge) (Windows) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/86/badge) (Mac) 
-* Audacity ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/3/badge)
-* Atom ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/84/badge) (Windows) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/86/badge) (Mac)
-* Blender ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/36/badge)
-* CCleaner ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/34/badge)
-* CDBurnerXP (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/74/badge)
-* CDBurnerXP (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/81/badge)
-* Citrix Receiver ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/48/badge)
-* Classic Shell ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/4/badge)
-* CutePDF (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/63/badge)
-* Dell Command | Configure ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/78/badge)
-* Dell Command | Update  ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/80/badge)
-* Dropbox ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/46/badge)
-* EMET ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/5/badge)
-* Evernote ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/6/badge)
-* FileZilla ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/7/badge)
-* Firefox ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/77/badge)
-* Foxit Reader ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/33/badge)
-* GhostScript ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/55/badge)
-* GIMP ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/8/badge)
-* GIT ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/40/badge)
-* Google Chrome (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/83/badge)
-* Google Chrome (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/82/badge)
-* Google Earth ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/32/badge)
-* Greenshot ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/9/badge)
-* HipChat ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/73/badge)
-* ImgBurn ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/44/badge)
-* Inkscape ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/10/badge)
-* InstEDIT ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/47/badge)
-* IrFanView ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/11/badge)
-* JAWS (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/76/badge)
-* JAWS (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/75/badge)
-* KeePass 2 ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/12/badge)
-* LibreOffice ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/13/badge)
-* Malware Bytes Anti-Malware ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/15/badge)
-* Malware Bytes Anti-Exploit ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/79/badge)
-* NotePadPP ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/19/badge)
-* NSClient++ (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/65/badge)
-* NSClient++ (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/64/badge)
-* Open Office ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/39/badge)
-* Opera ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/53/badge)
-* Paint.Net ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/67/badge)
-* PeaZip ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/66/badge)
-* Pidgin ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/18/badge)
-* Prezi ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/56/badge)
-* Putty ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/20/badge)
-* R ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/21/badge)
-* RealVNC Server (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/23/badge)
-* RealVNC Server (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/22/badge)
-* RealVNC Client (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/61/badge)
-* RealVNC Client (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/62/badge)
-* Scratch 2 ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/24/badge)
-* ShareX ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/45/badge)
-* Silverlight (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/85/badge)
-* Silverlight (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/25/badge)
-* Steam ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/68/badge)
-* Teamviewer ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/27/badge)
-* Thunderbird ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/28/badge)
-* TightVNC Server (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/60/badge)
-* TightVNC Server (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/59/badge)
-* TightVNC Client (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/57/badge)
-* TightVNC Client (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/58/badge)
-* TortoiseSVN (X64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/43/badge)
-* TortoiseSVN (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/42/badge)
-* Visio Viewer 2013 ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/38/badge)
-* VLC ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/30/badge)
-* VMWare Player 12.x ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/31/badge)
-* VMWare vSphere Client ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/54/badge)
-* WinDirStat ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/35/badge)
-* WinMerge ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/52/badge)
-* Winrar (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/69/badge)
-* Winrar (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/70/badge)
-* WinSCP ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/49/badge)
-* WinZIP (x64) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/51/badge)
-* WinZIP (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/50/badge)
+| Application | Microsoft Windows | Apple macOS
+|--- |--- |---		
+| 7-Zip | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/1/badge) | 
+| Air | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/2/badge) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/86/badge) 
+| Audacity | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/3/badge) | 
+| Atom | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/84/badge) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/86/badge)
+| Blender | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/36/badge) | 
+| CCleaner | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/34/badge) | 
+| CDBurnerXP (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/74/badge) | 
+| CDBurnerXP (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/81/badge) | 
+| Citrix Receiver | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/48/badge) | 
+| Classic Shell | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/4/badge) | 
+| CutePDF (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/63/badge) | 
+| Dell Command \| Configure | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/78/badge) | 
+| Dell Command \| Update  | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/80/badge) | 
+| Dropbox | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/46/badge) | 
+| EMET | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/5/badge) | 
+| Evernote | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/6/badge) | 
+| FileZilla | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/7/badge) | 
+| Firefox | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/77/badge) | 
+| Foxit Reader | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/33/badge) | 
+| GhostScript | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/55/badge) | 
+| GIMP | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/8/badge) | 
+| GIT | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/40/badge) | 
+| Google Chrome (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/83/badge) | 
+| Google Chrome (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/82/badge) | 
+| Google Earth | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/32/badge) | 
+| Greenshot | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/9/badge) | 
+| HipChat | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/73/badge) | 
+| ImgBurn | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/44/badge) | 
+| Inkscape | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/10/badge) | 
+| InstEDIT | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/47/badge) | 
+| IrFanView | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/11/badge) | 
+| JAWS (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/76/badge) | 
+| JAWS (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/75/badge) | 
+| KeePass 2 | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/12/badge) | 
+| LibreOffice | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/13/badge) | 
+| Malware Bytes Anti-Malware | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/15/badge) | 
+| Malware Bytes Anti-Exploit | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/79/badge) | 
+| NotePadPP | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/19/badge) | 
+| NSClient++ (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/65/badge) | 
+| NSClient++ (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/64/badge) | 
+| Open Office | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/39/badge) | 
+| Opera | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/53/badge) | 
+| Paint.Net | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/67/badge) | 
+| PeaZip | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/66/badge) | 
+| Pidgin | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/18/badge) | 
+| Prezi | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/56/badge) | 
+| Putty | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/20/badge) | 
+| R | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/21/badge) | 
+| RealVNC Server (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/23/badge) | 
+| RealVNC Server (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/22/badge) | 
+| RealVNC Client (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/61/badge) | 
+| RealVNC Client (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/62/badge) | 
+| Scratch 2 | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/24/badge) | 
+| ShareX | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/45/badge) | 
+| Silverlight (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/85/badge) | 
+| Silverlight (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/25/badge) | 
+| Steam | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/68/badge) | 
+| Teamviewer | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/27/badge) | 
+| Thunderbird | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/28/badge) | 
+| TightVNC Server (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/60/badge) | 
+| TightVNC Server (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/59/badge) | 
+| TightVNC Client (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/57/badge) | 
+| TightVNC Client (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/58/badge) | 
+| TortoiseSVN (X64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/43/badge) | 
+| TortoiseSVN (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/42/badge) | 
+| Visio Viewer 2013 | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/38/badge) | 
+| VLC | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/30/badge) | 
+| VMWare Player 12.x | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/31/badge) | 
+| VMWare vSphere Client | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/54/badge) | 
+| WinDirStat | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/35/badge) | 
+| WinMerge | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/52/badge) | 
+| Winrar (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/69/badge) | 
+| Winrar (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/70/badge) | 
+| WinSCP | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/49/badge) | 
+| WinZIP (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/51/badge) | 
+| WinZIP (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/50/badge) | 
