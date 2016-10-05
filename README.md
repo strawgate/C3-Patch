@@ -12,7 +12,7 @@ The following content is provided for each supported application:
 
 Build information is displayed next to each application. Please note: due to the way builds are currently being run, a failing build can often have a cascading effect on following builds. This means that a failed build may cause the following builds to fail as well for a short time (typically one day). This *does not* mean that we are publishing failing fixlets but instead just means that the fixlets generated are not passing testing and are also not being published.
 
-## Currently Supported Applications (75):
+## Currently Supported Applications (77):
 
 ### We are migrating to a new build engine this week and so a number of these badges may say, "Failed". Please contact William Easton (@Strawgate on the BigFix Forums) with any questions
 
