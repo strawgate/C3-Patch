@@ -19,9 +19,9 @@ Build information is displayed next to each application. Please note: due to the
 ### Please contact William Easton (@Strawgate on the BigFix Forums) with any questions
 
 * 7-Zip ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/1/badge)
-* Air ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/2/badge)
+* Air ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/2/badge) (Windows) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/86/badge) (Mac) 
 * Audacity ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/3/badge)
-* Atom ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/84/badge)
+* Atom ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/84/badge) (Windows) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/86/badge) (Mac)
 * Blender ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/36/badge)
 * CCleaner ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/34/badge)
 * CDBurnerXP (x86) ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/74/badge)
