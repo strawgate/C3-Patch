@@ -14,9 +14,7 @@ Build information is displayed next to each application. Please note: due to the
 
 ## Currently Supported Applications (75):
 
-# NOTE: We are redoing the Build Environment this week and so a number of these badges may say, "Failed". We are still generating content.
-
-### Please contact William Easton (@Strawgate on the BigFix Forums) with any questions
+### We are migrating to a new build engine this week and so a number of these badges may say, "Failed". Please contact William Easton (@Strawgate on the BigFix Forums) with any questions
 
 | Application | Microsoft Windows | Apple macOS
 |--- |--- |---		
