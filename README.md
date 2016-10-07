@@ -45,6 +45,7 @@ Build information is displayed next to each application. Please note: due to the
 | Google Chrome (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/82/badge) | 
 | Google Earth | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/32/badge) | 
 | Greenshot | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/9/badge) | 
+| Handbrake | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/92/badge) | 
 | HipChat | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/73/badge) | 
 | ImgBurn | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/44/badge) | 
 | Inkscape | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/10/badge) | 
@@ -56,6 +57,8 @@ Build information is displayed next to each application. Please note: due to the
 | LibreOffice | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/13/badge) | 
 | Malware Bytes Anti-Malware | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/15/badge) | 
 | Malware Bytes Anti-Exploit | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/79/badge) | 
+| Microsoft Security Essentials (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/91/badge) | 
+| Microsoft Security Essentials (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/90/badge) | 
 | NotePadPP | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/19/badge) | 
 | NSClient++ (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/65/badge) | 
 | NSClient++ (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/64/badge) | 
