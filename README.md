@@ -2,7 +2,7 @@
 
 This is the home for C3 Patch. It does not currently contain any of the actual patch content but is instead the home for issue tracking, information about C3 Patch, and the way to find out about build information. The home for patch content is on [BigFix.Me](https://bigfix.me/site/details/10397).
 
-C3 Patch is a software catalog covering a large variety of commonly used third-party software. Our catalog makes patches and content for 70+ common applications. 
+C3 Patch is a software catalog covering a large variety of commonly used third-party software. Our catalog makes patches and content for 80+ common applications. 
 
 The following content is provided for each supported application:
 
@@ -45,7 +45,7 @@ Build information is displayed next to each application. Please note: due to the
 | Google Chrome (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/82/badge) | 
 | Google Earth | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/32/badge) | 
 | Greenshot | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/9/badge) | 
-| Handbrake | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/92/badge) | 
+| Handbrake (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/92/badge) | 
 | HipChat | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/73/badge) | 
 | ImgBurn | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/44/badge) | 
 | Inkscape | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/10/badge) | 
