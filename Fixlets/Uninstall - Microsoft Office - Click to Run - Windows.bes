@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
 	<Fixlet>
 		<Title>Uninstall - Microsoft Office - Click to Run - Windows</Title>
-		<Description><![CDATA[&lt;enter a description of the problem and the corrective action here&gt; ]]></Description>
+		<Description><![CDATA[<P>This Fixlet uses the Office Cleanup tool to remove a Microsoft Office Click to Run Installation.</P>
+<P>For general information or to report issues with C3 Patch content please visit GitHub here: <A href="https://github.com/strawgate/C3-Patch">https://github.com/strawgate/C3-Patch</A></P>]]></Description>
 		<Relevance>windows of operating system</Relevance>
-		<Relevance>exists (keys "ClickToRun"; keys "15.0\ClickToRun"; keys "16.0\ClickToRun") of keys "HKEY_LOCAL_MACHINE\Software\Microsoft\Office" of (x32 registries;x64 registries)</Relevance>
+		<Relevance>exists (keys "ClickToRun" of it; keys "15.0\ClickToRun" of it; keys "16.0\ClickToRun" of it) of keys "HKEY_LOCAL_MACHINE\Software\Microsoft\Office" of (x32 registries;x64 registries)</Relevance>
 		<Category></Category>
 		<Source>Internal</Source>
 		<SourceID></SourceID>
@@ -21,7 +23,7 @@
 			</Description>
 			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">prefetch o15-ctrremove.diagcab sha1:56C6CA76993A96CF9A255463B90DB96CB9D24464 size:1017572 http://download.microsoft.com/download/5/0/5/505878EB-FFC4-4DF0-A526-B1165BFA6C35/o15-ctrremove.diagcab sha256:6B18F30D5490289645C4520D8773A2B9FC894D8FF397530AEF9DC3A7509F691D
 
-waithidden expand -i "__Download\O15CTRRemove.diagcab" -f:OffScrub*.vbs "__Download"
+waithidden expand -i "__Download\O15-CTRRemove.diagcab" -f:OffScrub*.vbs "__Download"
 
 waithidden cscript "__Download\OffScrubc2r.vbs"</ActionScript>
 		</DefaultAction>
