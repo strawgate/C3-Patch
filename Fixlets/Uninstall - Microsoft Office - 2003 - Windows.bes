@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Fixlet>
+		<Title>Uninstall - Microsoft Office - 2003 - Windows</Title>
+		<Description><![CDATA[<P>This Fixlet uses the Office Cleanup tool to remove a Microsoft Office 2003 Installation.</P>
+<P>For general information or to report issues with C3 Patch content please visit GitHub here: <A href="https://github.com/strawgate/C3-Patch">https://github.com/strawgate/C3-Patch</A></P>]]></Description>
+		<Relevance>windows of operating system</Relevance>
+		<Relevance>exists keys "{90110409-6000-11D3-8CFE-0150048383C9}" of keys "HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall" of (x32 registries;x64 registries)</Relevance>
+		<Category></Category>
+		<Source>Internal</Source>
+		<SourceID></SourceID>
+		<SourceReleaseDate>2017-02-24</SourceReleaseDate>
+		<SourceSeverity></SourceSeverity>
+		<CVENames></CVENames>
+		<SANSID></SANSID>
+		<Domain>BESC</Domain>
+		<DefaultAction ID="Action1">
+			<Description>
+				<PreLink>Click </PreLink>
+				<Link>here</Link>
+				<PostLink> to deploy this action.</PostLink>
+			</Description>
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">prefetch o11-remove.diagcab sha1:0AD69E36F707FE4A2BB254F9DCDF7BD6A4EDAB97 size:145218 http://download.microsoft.com/download/F/0/F/F0F9BC5C-45A4-41F4-B9AC-30D678FBC428/MicrosoftEasyFix20054.mini.diagcab sha256:E9BAC8DD32094F77A31DCB94C32950CB209EE4B6BFB8781949B926E420BFA992
+
+waithidden expand -i "__Download\O11-Remove.diagcab" -f:OffScrub*.vbs "__Download"
+
+waithidden cscript "__Download\OffScrub03.vbs"</ActionScript>
+		</DefaultAction>
+	</Fixlet>
+</BES>
