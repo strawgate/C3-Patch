@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Task>
+		<Title>Deploy - Windows Management Framework - 4.0 - Windows</Title>
+		<Description><![CDATA[<P>Deploys Windows Management Framework 4.0.</P>
+<P>Requires .Net 4.5</P>]]></Description>
+		<Relevance>windows of operating system</Relevance>
+		<Relevance>/* Must be Windows 7 SP1 or  or Windows Server 2008 R2 SP1 */ 
+(version of it equals "6.1" as version and service pack major version of it = 1) of operating system</Relevance>
+		<Relevance><![CDATA[/* Must have .Net Framework 4.5 installed */
+(value "Version" of key "client" of it as string as version >= "4.5" as version) of key "Microsoft\Net Framework Setup\NDP\v4" of key "HKLM\Software" of x64 registry]]></Relevance>
+		<Relevance><![CDATA[/* Only run if powershell 4.0 or above not already installed */
+not exists value "PowerShellVersion" whose (it as string as version >= "4.0" as version) of keys "HKLM\Software\Microsoft\Powershell\3\PowerShellEngine" of native registry]]></Relevance>
+		<Category>Software Distribution</Category>
+		<DownloadSize>19304283</DownloadSize>
+		<Source>Window Management Framework</Source>
+		<SourceID><![CDATA[<Unspecified>]]></SourceID>
+		<SourceReleaseDate>2015-01-06</SourceReleaseDate>
+		<SourceSeverity><![CDATA[<Unspecified>]]></SourceSeverity>
+		<CVENames></CVENames>
+		<SANSID></SANSID>
+		<Domain>BESC</Domain>
+		<Action ID="Action1">
+			<Description>
+				<PreLink><![CDATA[Click&nbsp;]]></PreLink>
+				<Link>here</Link>
+				<PostLink><![CDATA[&nbsp;to deploy this action]]></PostLink>
+			</Description>
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">if {x64 of operating system}
+	prefetch KB2819745.msu sha1:5d40d059b9ea7f1d596f608a07cca49e4537dc15 size:19304283 https://download.microsoft.com/download/3/D/6/3D61D262-8549-4769-A660-230B67E15B25/Windows6.1-KB2819745-x64-MultiPkg.msu sha256:fbc0889528656a3bc096f27434249f94cba12e413142aa38946fcdd8edf6f4c5
+else 
+	prefetch KB2819745.msu sha1:378BD9F96B8C898B86BB0C0B92F2C9C000748C5E size:14736102 https://download.microsoft.com/download/3/D/6/3D61D262-8549-4769-A660-230B67E15B25/Windows6.1-KB2819745-x86-MultiPkg.msu sha256:D5DD77C5CD6370984257C81269CE40F83466D20339E44BB6DE40C22D96641B98
+endif 
+
+wait __Download\KB2819745.msu /quiet /norestart</ActionScript>
+		</Action>
+	</Task>
+</BES>

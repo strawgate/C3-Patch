@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Fixlet>
+		<Title>Uninstall - Microsoft Office - 2013 - Windows</Title>
+		<Description><![CDATA[&lt;enter a description of the problem and the corrective action here&gt; ]]></Description>
+		<Relevance>windows of operating system</Relevance>
+		<Relevance>exists keys "90150000-0011-0000-0000-0000000FF1CE" of keys "Common\InstalledPackages" of keys "HKEY_LOCAL_MACHINE\Software\Microsoft\Office" of (x32 registries;x64 registries)</Relevance>
+		<Category></Category>
+		<Source>Internal</Source>
+		<SourceID></SourceID>
+		<SourceReleaseDate>2017-02-24</SourceReleaseDate>
+		<SourceSeverity></SourceSeverity>
+		<CVENames></CVENames>
+		<SANSID></SANSID>
+		<Domain>BESC</Domain>
+		<DefaultAction ID="Action1">
+			<Description>
+				<PreLink>Click </PreLink>
+				<Link>here</Link>
+				<PostLink> to deploy this action.</PostLink>
+			</Description>
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">prefetch o15-ctrremove.diagcab sha1:56C6CA76993A96CF9A255463B90DB96CB9D24464 size:1017572 http://download.microsoft.com/download/5/0/5/505878EB-FFC4-4DF0-A526-B1165BFA6C35/o15-ctrremove.diagcab sha256:6B18F30D5490289645C4520D8773A2B9FC894D8FF397530AEF9DC3A7509F691D
+
+waithidden expand -i "__Download\O15CTRRemove.diagcab" -f:OffScrub*.vbs "__Download"
+
+waithidden cscript "__Download\OffScrub_O15msi.vbs"</ActionScript>
+		</DefaultAction>
+	</Fixlet>
+</BES>
