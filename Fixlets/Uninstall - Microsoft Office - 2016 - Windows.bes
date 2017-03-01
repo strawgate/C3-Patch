@@ -21,7 +21,7 @@
 				<Link>here</Link>
 				<PostLink> to deploy this action.</PostLink>
 			</Description>
-			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">prefetch o15-ctrremove.diagcab sha1:56C6CA76993A96CF9A255463B90DB96CB9D24464 size:1017572 http://download.microsoft.com/download/5/0/5/505878EB-FFC4-4DF0-A526-B1165BFA6C35/o15-ctrremove.diagcab sha256:6B18F30D5490289645C4520D8773A2B9FC894D8FF397530AEF9DC3A7509F691D
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">prefetch o15-ctrremove.diagcab sha1:23D20B36D679CEE830F60051D91E4043DCC092A9 size:92993 http://download.microsoft.com/download/5/0/5/505878EB-FFC4-4DF0-A526-B1165BFA6C35/o15-ctrremove.diagcab sha256:D5BC74378FC81155A99CEA2A5099E66B4FB43F74C8651BCA57658D6E480E2820
 
 waithidden expand -i "__Download\O15-CTRRemove.diagcab" -f:OffScrub*.vbs "__Download"
 
