@@ -6,7 +6,7 @@
 		<Description><![CDATA[<P>This Fixlet uses the Office Cleanup tool to remove a Microsoft Office 2007 Installation.</P>
 <P>For general information or to report issues with C3 Patch content please visit GitHub here: <A href="https://github.com/strawgate/C3-Patch">https://github.com/strawgate/C3-Patch</A></P>]]></Description>
 		<Relevance>windows of operating system</Relevance>
-		<Relevance>exists keys whose (default value of it as string contains (regex "Microsoft (Access|Excel|OneNote|Outlook|Powerpoint|Publisher|Word) MUI.*")) of keys "12.0\Common\InstalledPackages" of keys "HKEY_LOCAL_MACHINE\Software\Microsoft\Office" of (x32 registries;x64 registries)</Relevance>
+		<Relevance>exists keys whose (default value of it as string contains (regex "Microsoft Office (Access|Excel|OneNote|Outlook|Powerpoint|Publisher|Word) MUI.*")) of keys "12.0\Common\InstalledPackages" of keys "HKEY_LOCAL_MACHINE\Software\Microsoft\Office" of (x32 registries;x64 registries)</Relevance>
 		<Category></Category>
 		<Source>Internal</Source>
 		<SourceID></SourceID>
@@ -25,7 +25,7 @@
 
 waithidden expand -i "__Download\O12-Remove.diagcab" -f:OffScrub*.vbs "__Download"
 
-waithidden cscript "__Download\OffScrub07.vbs"</ActionScript>
+waithidden cscript "__Download\OffScrub07.vbs" ALL /Quiet /NoCancel /Force</ActionScript>
 		</DefaultAction>
 	</Fixlet>
 </BES>
