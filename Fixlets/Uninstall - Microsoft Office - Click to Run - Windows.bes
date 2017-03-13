@@ -278,7 +278,7 @@ Sub ExitScript
             If MsgBox(sPrompt, vbYesNo, SCRIPTNAME & " - Reboot Required") = VB_YES Then
                 Dim colOS, oOS
                 Dim oWmiReboot
-                Set oWmiReboot = GetObject("winmgmts:{impersonationLevel=impersonate,(Shutdown)}!\\.\root\cimv2")
+                Set oWmiReboot = GetObject("winmgmts:{{impersonationLevel=impersonate,(Shutdown)}!\\.\root\cimv2")
                 Set colOS = oWmiReboot.ExecQuery ("Select * from Win32_OperatingSystem")
                 For Each oOS in colOS
                     oOS.Reboot()
@@ -941,7 +941,7 @@ Sub DelSchtasks ()
     wscript.sleep 500
 
     LogOnly "Microsoft Office 15 Sync Maintenance"
-    sCmd = "SCHTASKS /Delete /TN " & Chr(34) & "Microsoft Office 15 Sync Maintenance for {d068b555-9700-40b8-992c-f866287b06c1}" & Chr(34) & " /F"
+    sCmd = "SCHTASKS /Delete /TN " & Chr(34) & "Microsoft Office 15 Sync Maintenance for {{d068b555-9700-40b8-992c-f866287b06c1}" & Chr(34) & " /F"
     oWShell.Run sCmd, 0, False
     wscript.sleep 500
 
@@ -1126,8 +1126,8 @@ Sub Uninstall
 	            sReturn = oWShell.Run (sCmd, 0, True)
 	            Log "   Return value: " & sReturn
 	        End If
-	        If oFso.FileExists(sProgramData & "\Microsoft\ClickToRun\{" & sPkgGuid & "}\integrator.exe") Then
-	            sCmd = chr(34) & sProgramData & "\Microsoft\ClickToRun\{" & sPkgGuid & "}\integrator.exe" & chr(34) & " /U  /Extension PackageRoot=" & chr(34) & sPkgFld & "\root" & chr(34) & " PackageGUID=" & sPkgGuid
+	        If oFso.FileExists(sProgramData & "\Microsoft\ClickToRun\{{" & sPkgGuid & "}\integrator.exe") Then
+	            sCmd = chr(34) & sProgramData & "\Microsoft\ClickToRun\{{" & sPkgGuid & "}\integrator.exe" & chr(34) & " /U  /Extension PackageRoot=" & chr(34) & sPkgFld & "\root" & chr(34) & " PackageGUID=" & sPkgGuid
 	            Log "   Running: " & sCmd
 	            sReturn = oWShell.Run (sCmd, 0, True)
 	            Log "   Return value: " & sReturn
@@ -1228,7 +1228,7 @@ Sub Regwipe
     RegDeleteKey HKLM, "SOFTWARE\Microsoft\Office\Common\InstallRoot\Virtual"
 
     ' Mapi reg
-    If NOT dictionaryKeepSku.Count > 0 Then RegDeleteKey HKLM, "SOFTWARE\Classes\CLSID\{2027FC3B-CF9D-4ec7-A823-38BA308625CC}"
+    If NOT dictionaryKeepSku.Count > 0 Then RegDeleteKey HKLM, "SOFTWARE\Classes\CLSID\{{2027FC3B-CF9D-4ec7-A823-38BA308625CC}"
     
     ' C2R keys
     RegDeleteKey HKCU, "SOFTWARE\Microsoft\Office\15.0\ClickToRun"
@@ -1277,30 +1277,30 @@ Sub Regwipe
         RegDeleteKey HKLM, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\Microsoft SPFS Icon Overlay 3 (InSync)"
 
         ' Shell extensions
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{B28AA736-876B-46DA-B3A8-84C5E30BA492}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{8B02D659-EBBB-43D7-9BBA-52CF22C5B025}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{0875DCB6-C686-4243-9432-ADCCF0B9F2D7}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{42042206-2D85-11D3-8CFF-005004838597}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{993BE281-6695-4BA5-8A2A-7AACBFAAB69E}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{C41662BB-1FA0-4CE0-8DC5-9B7F8279FF97}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{506F4668-F13E-4AA1-BB04-B43203AB3CC0}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{D66DC78C-4F61-447F-942B-3FB6980118CF}", False
-        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{46137B78-0EC3-426D-8B89-FF7C3A458B5E}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{B28AA736-876B-46DA-B3A8-84C5E30BA492}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{8B02D659-EBBB-43D7-9BBA-52CF22C5B025}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{0875DCB6-C686-4243-9432-ADCCF0B9F2D7}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{42042206-2D85-11D3-8CFF-005004838597}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{993BE281-6695-4BA5-8A2A-7AACBFAAB69E}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{C41662BB-1FA0-4CE0-8DC5-9B7F8279FF97}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{506F4668-F13E-4AA1-BB04-B43203AB3CC0}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{D66DC78C-4F61-447F-942B-3FB6980118CF}", False
+        RegDeleteValue HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\", "{{46137B78-0EC3-426D-8B89-FF7C3A458B5E}", False
     
         ' BHO
-        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}"
-        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{B4F3A835-0E21-4959-BA22-42B3008E02FF}"
-        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{D0498E0A-45B7-42AE-A9AA-ABA463DBD3BF}"
-        RegDeleteKey HKLM, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}"
-        RegDeleteKey HKLM, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{B4F3A835-0E21-4959-BA22-42B3008E02FF}"
-        RegDeleteKey HKLM, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{D0498E0A-45B7-42AE-A9AA-ABA463DBD3BF}"
+        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}"
+        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{B4F3A835-0E21-4959-BA22-42B3008E02FF}"
+        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{D0498E0A-45B7-42AE-A9AA-ABA463DBD3BF}"
+        RegDeleteKey HKLM, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{31D09BA0-12F5-4CCE-BE8A-2923E76605DA}"
+        RegDeleteKey HKLM, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{B4F3A835-0E21-4959-BA22-42B3008E02FF}"
+        RegDeleteKey HKLM, "SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{D0498E0A-45B7-42AE-A9AA-ABA463DBD3BF}"
     
         ' OneNote Namespace Extension for Desktop
-        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{0875DCB6-C686-4243-9432-ADCCF0B9F2D7}"
+        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{{0875DCB6-C686-4243-9432-ADCCF0B9F2D7}"
     
         ' Web Sites
-        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Namespace\{B28AA736-876B-46DA-B3A8-84C5E30BA492}"
-        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\NetworkNeighborhood\Namespace\{46137B78-0EC3-426D-8B89-FF7C3A458B5E}"
+        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\Namespace\{{B28AA736-876B-46DA-B3A8-84C5E30BA492}"
+        RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\NetworkNeighborhood\Namespace\{{46137B78-0EC3-426D-8B89-FF7C3A458B5E}"
 
         ' VolumeCaches
         RegDeleteKey HKLM, "SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches\Microsoft Office Temp Files"
@@ -1584,10 +1584,10 @@ Sub CleanShortcuts (sFolder, fDelete, fUnPin)
                 'Compare if the shortcut target is in the list of executables that will be removed
                 'LogOnly "  - SC.TargetPath: " & sc.TargetPath
                 If Len(sc.TargetPath) > 0 Then
-                    If InStr(sc.TargetPath,"{") > 0 Then
+                    If InStr(sc.TargetPath,"{{") > 0 Then
                         'Handle Windows Installer shortcuts
-                        If Len(sc.TargetPath) >= InStr(sc.TargetPath,"{") + 37 Then
-                            If CheckDelete(Mid(sc.TargetPath, InStr(sc.TargetPath,"{"), 38)) Then fDeleteSC = True
+                        If Len(sc.TargetPath) >= InStr(sc.TargetPath,"{{") + 37 Then
+                            If CheckDelete(Mid(sc.TargetPath, InStr(sc.TargetPath,"{{"), 38)) Then fDeleteSC = True
                         End If
                     Else
                         'Handle regular shortcuts
@@ -1801,7 +1801,7 @@ Function GetExpandedGuid (sGuid)
     'Ensure valid length
     If NOT Len(sGuid) = 32 Then Exit Function
 
-    GetExpandedGuid = "{" & StrReverse(Mid(sGuid,1,8)) & "-" & _
+    GetExpandedGuid = "{{" & StrReverse(Mid(sGuid,1,8)) & "-" & _
                        StrReverse(Mid(sGuid,9,4)) & "-" & _
                        StrReverse(Mid(sGuid,13,4))& "-"
     For i = 17 To 20
@@ -1894,7 +1894,7 @@ Dim fFailed
         pow85 = pow85 * 85
         fFailed = False
     Next 'i
-    If NOT fFailed Then sGuid = "{"&Mid(sDecode,1,8)&"-"& _
+    If NOT fFailed Then sGuid = "{{"&Mid(sDecode,1,8)&"-"& _
                                 Mid(sDecode,13,4)&"-"& _
                                 Mid(sDecode,9,4)&"-"& _
                                 Mid(sDecode,23,2) & Mid(sDecode,21,2)&"-"& _
@@ -2571,10 +2571,10 @@ Function InScope(sProductCode)
             End If
         End If
         ' Microsoft Online Services Sign-in Assistant (x64 ship and x86 ship)
-        If sProd = "{6C1ADE97-24E1-4AE4-AEDD-86D3A209CE60}" Then fInScope = True
-        If sProd = "{9520DDEB-237A-41DB-AA20-F2EF2360DCEB}" Then fInScope = True
+        If sProd = "{{6C1ADE97-24E1-4AE4-AEDD-86D3A209CE60}" Then fInScope = True
+        If sProd = "{{9520DDEB-237A-41DB-AA20-F2EF2360DCEB}" Then fInScope = True
         If sProd = UCase(sPackageGuid) Then fInScope = True
-        If sProd = UCase("{9AC08E99-230B-47e8-9721-4577B7F124EA}") Then fInScope = True
+        If sProd = UCase("{{9AC08E99-230B-47e8-9721-4577B7F124EA}") Then fInScope = True
     End If '38
 
     InScope = fInScope
