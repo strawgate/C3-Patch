@@ -69,7 +69,7 @@ Const COMPRESSED    = 32
 Const REG_ARP       = "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\"
 Const VB_YES        = 6
 Const MSIOPENDATABASEREADONLY = 0
-Const LYNC_ALL      = "{4A2C120F-307B-4400-B239-F29ADB54D3C6}{5CFD6599-10E5-4CF0-B6E1-BF39D30A64F8}{5CFD6599-10E5-4CF0-B6E1-BF39D30A64F8}{BF3AC8BA-1A0F-42AD-8B65-4250617AF682}{3475BF22-3564-4EF3-A633-C5F3F4582392}{263BA91B-7782-4EEB-A4FC-7BD554CAF1F3}{AA256AE1-6B6A-48E6-9957-B38F92CA614B}{D79732A1-BB17-4789-AE75-69D61261E305}{C7B887F2-07CA-4903-93A2-9B4E16E4EABD}{81BE0B17-563B-45D4-B198-5721E6C665CD}{11298539-8073-4D54-B6A0-88D4FA512E5C}{C192041D-2861-4E02-9F43-4041858A58F1}{7023C711-0E65-471E-8048-12C455968841}{58A013B1-1613-4978-881A-FCA43710C84A}{7FD6C049-9777-4B51-91FF-B19D79ADF439}{D3001D99-675B-44DF-A8EB-A7BB6F864DB7}{0C5EA724-8649-47FA-B505-75B35390378D}{13DE0C92-2AE4-48D0-8CC8-58D5E327BDCB}{E7EC16E6-C220-41C0-9C91-5E7702B8EC86}{1B10C75C-70E1-460E-B07B-D7DFF365D80F}{331977BC-B246-46B4-8829-1D52F41C8C7B}{D8255EF2-0BB2-4AF1-A662-5EBACD179475}{DD069437-C92B-4C1C-A992-14F6C7E12C2C}{E9E30DB3-8D72-43A0-B1B8-A6F8261D20D6}{545B7E32-E254-40E1-8935-91C61E3D02C2}{70409E9E-AFAE-4C05-AE57-F83B89819434}{1D6E3225-753D-41AD-A2C4-68684700F592}{217AA75D-82C0-4C49-9252-A0E6F9661688}{5AB81CD4-7C78-420C-AAAC-855C4BADBDDD}{AA595672-6515-4961-B81F-485F86627C76}{C9F2C38C-21F0-4687-8C7D-51AA02CE8C98}{DD80DED6-700D-4CC5-B2A9-C64A1AD155B9}{88257193-EC61-4152-8AB1-A5FB4BE638D7}{7D9109C3-58A9-4AFD-A1D3-47E7D811726E}{71C6D199-5B8E-41E7-BA36-D99F66E0072E}{1CFE7869-777D-4563-8161-2C75ED95B621}{FE25DDB2-5766-4A9E-86D2-2B709CC8F65D}{621F7793-1C51-45BA-899F-41557946B0E3}{B31017AA-FBF8-4003-8785-EC789C2AE0C2}{11849FBC-C416-4742-8279-17C3A2C85F72}{4F380D4B-A84D-45C7-AF58-59EA2AEDF35A}{81BE0B17-563B-45D4-B198-5721E6C665CD}"
+Const LYNC_ALL      = "{{4A2C120F-307B-4400-B239-F29ADB54D3C6}{{5CFD6599-10E5-4CF0-B6E1-BF39D30A64F8}{{5CFD6599-10E5-4CF0-B6E1-BF39D30A64F8}{{BF3AC8BA-1A0F-42AD-8B65-4250617AF682}{{3475BF22-3564-4EF3-A633-C5F3F4582392}{{263BA91B-7782-4EEB-A4FC-7BD554CAF1F3}{{AA256AE1-6B6A-48E6-9957-B38F92CA614B}{{D79732A1-BB17-4789-AE75-69D61261E305}{{C7B887F2-07CA-4903-93A2-9B4E16E4EABD}{{81BE0B17-563B-45D4-B198-5721E6C665CD}{{11298539-8073-4D54-B6A0-88D4FA512E5C}{{C192041D-2861-4E02-9F43-4041858A58F1}{{7023C711-0E65-471E-8048-12C455968841}{{58A013B1-1613-4978-881A-FCA43710C84A}{{7FD6C049-9777-4B51-91FF-B19D79ADF439}{{D3001D99-675B-44DF-A8EB-A7BB6F864DB7}{{0C5EA724-8649-47FA-B505-75B35390378D}{{13DE0C92-2AE4-48D0-8CC8-58D5E327BDCB}{{E7EC16E6-C220-41C0-9C91-5E7702B8EC86}{{1B10C75C-70E1-460E-B07B-D7DFF365D80F}{{331977BC-B246-46B4-8829-1D52F41C8C7B}{{D8255EF2-0BB2-4AF1-A662-5EBACD179475}{{DD069437-C92B-4C1C-A992-14F6C7E12C2C}{{E9E30DB3-8D72-43A0-B1B8-A6F8261D20D6}{{545B7E32-E254-40E1-8935-91C61E3D02C2}{{70409E9E-AFAE-4C05-AE57-F83B89819434}{{1D6E3225-753D-41AD-A2C4-68684700F592}{{217AA75D-82C0-4C49-9252-A0E6F9661688}{{5AB81CD4-7C78-420C-AAAC-855C4BADBDDD}{{AA595672-6515-4961-B81F-485F86627C76}{{C9F2C38C-21F0-4687-8C7D-51AA02CE8C98}{{DD80DED6-700D-4CC5-B2A9-C64A1AD155B9}{{88257193-EC61-4152-8AB1-A5FB4BE638D7}{{7D9109C3-58A9-4AFD-A1D3-47E7D811726E}{{71C6D199-5B8E-41E7-BA36-D99F66E0072E}{{1CFE7869-777D-4563-8161-2C75ED95B621}{{FE25DDB2-5766-4A9E-86D2-2B709CC8F65D}{{621F7793-1C51-45BA-899F-41557946B0E3}{{B31017AA-FBF8-4003-8785-EC789C2AE0C2}{{11849FBC-C416-4742-8279-17C3A2C85F72}{{4F380D4B-A84D-45C7-AF58-59EA2AEDF35A}{{81BE0B17-563B-45D4-B198-5721E6C665CD}"
 
 
 '=======================================================================================================
@@ -124,7 +124,7 @@ Dim fBypass_Stage4  : fBypass_Stage4 = False 'CleanUp
 Dim fRebootRequired : fRebootRequired = False
 
 'Create required objects
-Set oWmiLocal   = GetObject("winmgmts:{(Debug)}\\.\root\cimv2")
+Set oWmiLocal   = GetObject("winmgmts:{{(Debug)}\\.\root\cimv2")
 Set oWShell     = CreateObject("Wscript.Shell")
 Set oShellApp   = CreateObject("Shell.Application")
 Set oFso        = CreateObject("Scripting.FileSystemObject")
@@ -399,7 +399,7 @@ If fRebootRequired Then
         If MsgBox("Do you want to reboot now?",vbYesNo,"Reboot Required") = VB_YES Then
             Dim colOS, oOS
             Dim oWmiReboot
-            Set oWmiReboot = GetObject("winmgmts:{impersonationLevel=impersonate,(Shutdown)}!\\.\root\cimv2")
+            Set oWmiReboot = GetObject("winmgmts:{{impersonationLevel=impersonate,(Shutdown)}!\\.\root\cimv2")
             Set colOS = oWmiReboot.ExecQuery ("Select * from Win32_OperatingSystem")
             For Each oOS in colOS
                 oOS.Reboot()
@@ -841,12 +841,12 @@ Sub ScanComponents
                 'Ensure valid guid length
                 If Len(CompClient) = 38 Then
                     fRemoveComponent = InScope(CompClient)
-                    If fRemoveComponent OR (CompClient = "{00000000-0000-0000-0000-000000000000}") Then
+                    If fRemoveComponent OR (CompClient = "{{00000000-0000-0000-0000-000000000000}") Then
                         sPath = ""
                         sPath = LCase(oMsi.ComponentPath(CompClient,ComponentID))
                         sPath = Replace(sPath,"?",":")
                         'Scan for msidbComponentAttributesPermanent flag
-                        If CompClient = "{00000000-0000-0000-0000-000000000000}" Then
+                        If CompClient = "{{00000000-0000-0000-0000-000000000000}" Then
                             fIsPermanent = True
                             iRemCnt = iRemCnt + 1
                         End If
@@ -1502,10 +1502,10 @@ Sub CleanShortcuts (sFolder, fDelete, fUnPin)
                 'Compare if the shortcut target is in the list of executables that will be removed
                 'LogOnly "  - SC.TargetPath: " & sc.TargetPath
                 If Len(sc.TargetPath) > 0 Then
-                    If InStr(sc.TargetPath,"{") > 0 Then
+                    If InStr(sc.TargetPath,"{{") > 0 Then
                         'Handle Windows Installer shortcuts
-                        If Len(sc.TargetPath) >= InStr(sc.TargetPath,"{") + 37 Then
-                            If CheckDelete(Mid(sc.TargetPath, InStr(sc.TargetPath,"{"), 38)) Then fDeleteSC = True
+                        If Len(sc.TargetPath) >= InStr(sc.TargetPath,"{{") + 37 Then
+                            If CheckDelete(Mid(sc.TargetPath, InStr(sc.TargetPath,"{{"), 38)) Then fDeleteSC = True
                         End If
                     Else
                         'Handle regular shortcuts
@@ -1722,39 +1722,39 @@ Sub RegWipe
         Case "11"
             'Jet_Replication
             sValue = ""
-            If RegReadValue(HKCR,"CLSID\{CC2C83A6-9BE4-11D0-98E7-00C04FC2CAF5}\InprocServer32","SystemDB",sValue,"REG_SZ") Then
+            If RegReadValue(HKCR,"CLSID\{{CC2C83A6-9BE4-11D0-98E7-00C04FC2CAF5}\InprocServer32","SystemDB",sValue,"REG_SZ") Then
                 If Len(sValue) > Len(sOInstallRoot) Then
-                    If LCase(Left(sValue,Len(sOInstallRoot))) = LCase(sOInstallRoot) Then RegDeleteKey HKCR,"CLSID\{CC2C83A6-9BE4-11D0-98E7-00C04FC2CAF5}\InprocServer32\"
+                    If LCase(Left(sValue,Len(sOInstallRoot))) = LCase(sOInstallRoot) Then RegDeleteKey HKCR,"CLSID\{{CC2C83A6-9BE4-11D0-98E7-00C04FC2CAF5}\InprocServer32\"
                 End If
             End If
         Case "12"
         Case "14"
             RegDeleteKey HKLM,"SOFTWARE\Microsoft\OfficeSoftwareProtectionPlatform\"
             RegDeleteKey HKLM,"SOFTWARE\Microsoft\OfficeSoftwareProtectionPlatform_Test\"
-            RegDeleteKey HKLM,"SOFTWARE\Microsoft\Office\Common\ActiveX Compatibility\{00024512-0000-0000-C000-000000000046}\"
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Office\OneNote\Adapters\","{456B0D0E-49DD-4C95-8DB6-175F54DE69A3}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{42042206-2D85-11D3-8CFF-005004838597}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{993BE281-6695-4BA5-8A2A-7AACBFAAB69E}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{0006F045-0000-0000-C000-000000000046}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{C41662BB-1FA0-4CE0-8DC5-9B7F8279FF97}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{7CCA70DB-DE7A-4FB7-9B2B-52E2335A3B5A}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{506F4668-F13E-4AA1-BB04-B43203AB3CC0}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{D66DC78C-4F61-447F-942B-3FB6980118CF}", False
-            RegDeleteKey HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{B4F3A835-0E21-4959-BA22-42B3008E02FF}\"
+            RegDeleteKey HKLM,"SOFTWARE\Microsoft\Office\Common\ActiveX Compatibility\{{00024512-0000-0000-C000-000000000046}\"
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Office\OneNote\Adapters\","{{456B0D0E-49DD-4C95-8DB6-175F54DE69A3}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{42042206-2D85-11D3-8CFF-005004838597}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{993BE281-6695-4BA5-8A2A-7AACBFAAB69E}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{0006F045-0000-0000-C000-000000000046}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{C41662BB-1FA0-4CE0-8DC5-9B7F8279FF97}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{7CCA70DB-DE7A-4FB7-9B2B-52E2335A3B5A}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{506F4668-F13E-4AA1-BB04-B43203AB3CC0}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{D66DC78C-4F61-447F-942B-3FB6980118CF}", False
+            RegDeleteKey HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{B4F3A835-0E21-4959-BA22-42B3008E02FF}\"
             'Groove Extensions 
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\","{B5A7F190-DDA6-4420-B3BA-52453494E6CD}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{99FD978C-D287-4F50-827F-B2C658EDA8E7}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{AB5C5600-7E6E-4B06-9197-9ECEF74D31CC}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{920E6DB1-9907-4370-B3A0-BAFC03D81399}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{16F3DD56-1AF5-4347-846D-7C10C4192619}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{2916C86E-86A6-43FE-8112-43ABE6BF8DCC}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{72853161-30C5-4D22-B7F9-0BBC1D38A37E}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{6C467336-8281-4E60-8204-430CED96822D}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{2A541AE1-5BF6-4665-A8A3-CFA9672E4291}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{B5A7F190-DDA6-4420-B3BA-52453494E6CD}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{A449600E-1DC6-4232-B948-9BD794D62056}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{3D60EDA7-9AB4-4DA8-864C-D9B5F2E7281D}", False
-            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{387E725D-DC16-4D76-B310-2C93ED4752A0}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellExecuteHooks\","{{B5A7F190-DDA6-4420-B3BA-52453494E6CD}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{99FD978C-D287-4F50-827F-B2C658EDA8E7}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{AB5C5600-7E6E-4B06-9197-9ECEF74D31CC}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{920E6DB1-9907-4370-B3A0-BAFC03D81399}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{16F3DD56-1AF5-4347-846D-7C10C4192619}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{2916C86E-86A6-43FE-8112-43ABE6BF8DCC}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{72853161-30C5-4D22-B7F9-0BBC1D38A37E}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{6C467336-8281-4E60-8204-430CED96822D}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{2A541AE1-5BF6-4665-A8A3-CFA9672E4291}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{B5A7F190-DDA6-4420-B3BA-52453494E6CD}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{A449600E-1DC6-4232-B948-9BD794D62056}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{3D60EDA7-9AB4-4DA8-864C-D9B5F2E7281D}", False
+            RegDeleteValue HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved\","{{387E725D-DC16-4D76-B310-2C93ED4752A0}", False
             RegDeleteKey HKLM,"SOFTWARE\Classes\*\shellex\ContextMenuHandlers\XXX Groove GFS Context Menu Handler XXX\"
             RegDeleteKey HKLM,"SOFTWARE\Classes\AllFilesystemObjects\shellex\ContextMenuHandlers\XXX Groove GFS Context Menu Handler XXX\"
             RegDeleteKey HKLM,"SOFTWARE\Classes\Directory\shellex\ContextMenuHandlers\XXX Groove GFS Context Menu Handler XXX\"
@@ -1765,7 +1765,7 @@ Sub RegWipe
             RegDeleteKey HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\Groove Explorer Icon Overlay 2.5 (GFS Unread Folder)\"
             RegDeleteKey HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\Groove Explorer Icon Overlay 3 (GFS Folder)\"
             RegDeleteKey HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\ShellIconOverlayIdentifiers\Groove Explorer Icon Overlay 4 (GFS Unread Mark)\"
-            RegDeleteKey HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{72853161-30C5-4D22-B7F9-0BBC1D38A37E}\"
+            RegDeleteKey HKLM,"SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Browser Helper Objects\{{72853161-30C5-4D22-B7F9-0BBC1D38A37E}\"
         
         Case 15
         Case 16
@@ -2546,7 +2546,7 @@ Function MspTargets (sMspFile)
 End Function 'MspTargets
 '=======================================================================================================
 
-'Return the ProductCode {GUID} from a .MSI package
+'Return the ProductCode {{GUID} from a .MSI package
 Function ProductCode(sMsi)
     Const MSIUILEVELNONE = 2 'No UI
     Dim MsiSession
@@ -2569,7 +2569,7 @@ Function GetUpgradeCode(sGuid)
     'Ensure Valid Length
     If NOT Len(sGuid) = 38 Then Exit Function
     
-    GetUpgradeCode = "{00" & Mid(sGuid, 4, 2) & "0000-" & Mid(sGuid, 11, 4) & "-0000-" & Mid(sGuid, 21, 1) & "000-" & Mid(sGuid, 26, 1) & "000000FF1CE}"
+    GetUpgradeCode = "{{00" & Mid(sGuid, 4, 2) & "0000-" & Mid(sGuid, 11, 4) & "-0000-" & Mid(sGuid, 21, 1) & "000-" & Mid(sGuid, 26, 1) & "000000FF1CE}"
 
 End Function 'GetUpgradeCode
 '=======================================================================================================
@@ -2580,7 +2580,7 @@ Function GetExpandedGuid (sGuid)
     'Ensure valid length
     If NOT Len(sGuid) = 32 Then Exit Function
 
-    GetExpandedGuid = "{" & StrReverse(Mid(sGuid,1,8)) & "-" & _
+    GetExpandedGuid = "{{" & StrReverse(Mid(sGuid,1,8)) & "-" & _
                        StrReverse(Mid(sGuid,9,4)) & "-" & _
                        StrReverse(Mid(sGuid,13,4))& "-"
     For i = 17 To 20
@@ -2667,7 +2667,7 @@ Dim fFailed
         pow85 = pow85 * 85
         fFailed = False
     Next 'i
-    If NOT fFailed Then sGuid = "{"&Mid(sDecode,1,8)&"-"& _
+    If NOT fFailed Then sGuid = "{{"&Mid(sDecode,1,8)&"-"& _
                                 Mid(sDecode,13,4)&"-"& _
                                 Mid(sDecode,9,4)&"-"& _
                                 Mid(sDecode,23,2) & Mid(sDecode,21,2)&"-"& _
