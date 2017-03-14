@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="BES.xsd">
+	<Fixlet>
+		<Title>Warning - Unused Microsoft Office 2007 Components can be removed - Windows</Title>
+		<Description><![CDATA[<P>This Fixlet uses the Office Cleanup tool to remove a Microsoft Office 2007 Installation.</P>
+<P>This Fixlet will be relevant if none of the&nbsp;standard office apps (Access, Excel, OneNote, Outlook, Powerpoint, Publisher, or Word) exist on the system but the Office suite still appears in programs and features.</P>
+<P>For general information or to report issues with C3 Patch content please visit GitHub here: <A href="https://github.com/strawgate/C3-Patch">https://github.com/strawgate/C3-Patch</A></P>]]></Description>
+		<Relevance>windows of operating system</Relevance>
+		<Relevance>not exists keys whose (default value of it as string contains (regex "Microsoft Office (Access|Excel|OneNote|Outlook|Powerpoint|Publisher|Word) MUI.*")) of keys "12.0\Common\InstalledPackages" of keys "HKEY_LOCAL_MACHINE\Software\Microsoft\Office" of (x32 registries;x64 registries)</Relevance>
+		<Relevance>exists keys whose (value "DisplayName" of it as string contains "Microsoft Office Professional Plus 2007") of keys "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall" of (x32 registries; x64 registries)</Relevance>
+		<Category></Category>
+		<Source>Internal</Source>
+		<SourceID></SourceID>
+		<SourceReleaseDate>2017-02-24</SourceReleaseDate>
+		<SourceSeverity></SourceSeverity>
+		<CVENames></CVENames>
+		<SANSID></SANSID>
+		<Domain>BESC</Domain>
+		<DefaultAction ID="Action1">
+			<Description>
+				<PreLink>Click </PreLink>
+				<Link>here</Link>
+				<PostLink> to deploy this action.</PostLink>
+			</Description>
+			<ActionScript MIMEType="application/x-Fixlet-Windows-Shell">prefetch o12-remove.diagcab sha1:985027E630CBBC9497F3F257A3E62B8956926DEF size:388756 http://download.microsoft.com/download/4/7/A/47A0D191-D6F9-4C95-92E6-28D1DFF80F64/MicrosoftFixit20052.mini.diagcab sha256:5168D686CDC5A51F27CB96CA97B51DCC65931F504C63D2672DAF9A1F83F33669
+
+waithidden expand -i "__Download\O12-Remove.diagcab" -f:OffScrub*.vbs "__Download"
+
+waithidden cscript "__Download\OffScrub07.vbs" ALL /Quiet /NoCancel /Force</ActionScript>
+		</DefaultAction>
+	</Fixlet>
+</BES>
