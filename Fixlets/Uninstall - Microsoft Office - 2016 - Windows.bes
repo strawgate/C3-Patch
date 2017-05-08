@@ -1565,9 +1565,8 @@ Sub UnPin(file)
     Set fldItem = oShellApp.NameSpace(file.ParentFolder.Path).ParseName(file.Name)
     For Each verb in fldItem.Verbs
         Select Case Replace(verb, "&", "")
-        Case "Unpin from Taskbar", "Von Taskleiste lÃ?Â¶sen", "DÃ?Â©tacher du barre des tÃ?Â¢ches", "DÃ?Â©tacher de la barre des tÃ?Â¢ches", "Desanclar de la barra de tareas", "Ta bort frÃ?Â¥n AktivitetsfÃ?Â¤ltet", "Ã£â??Â¿Ã£â??Â¹Ã£â??Â¯ Ã£Æ?ÂÃ£Æ?Â¼Ã£ÂÂ«Ã¨Â¡Â¨Ã§Â¤ÂºÃ£Ââ??Ã£ÂÂªÃ£Ââ??(K)", "Ã¬Å¾â??Ã¬â??â?¦ Ã­â??Å?Ã¬â?¹Å?Ã¬Â¤â??Ã¬â??ÂÃ¬â??Å? Ã¬Â Å?ÃªÂ±Â°(K)", "ÃÅ¾Ã?â??ÃÂºÃ?â?¬ÃÂµÃÂ¿ÃÂ¸Ã?â??Ã?Å? ÃÂ¾Ã?â?? ÃÂ¿ÃÂ°ÃÂ½ÃÂµÃÂ»ÃÂ¸ ÃÂ·ÃÂ°ÃÂ´ÃÂ°Ã?â?¡"
-            verb.DoIt
-        Case "Unpin from Start Menu", "Vom StartmenÃ?Â¼ lÃ?Â¶sen", "DÃ?Â©tacher du menu DÃ?Â©marrer", "DÃ?Â©tacher de la menu DÃ?Â©marrer"
+        Case "Unpin from Taskbar"
+        Case "Unpin from Start Menu"
             If iVersionNT = 601 Then verb.DoIt
         End Select
     Next
