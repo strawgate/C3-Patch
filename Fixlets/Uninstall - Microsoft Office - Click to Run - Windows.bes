@@ -1005,7 +1005,7 @@ Sub CloseOfficeApps
         ' detect processes to allow a user warning
         sUserWarn =  "Please save all open documents and close all Office, IE and Windows Explorer applications before proceeding." & vbCrLf & _
                     "When you click OK this removal process will terminate all running Office, IE and Windows Explorer processes and applications." & vbCrLf & vbCrLf & _
-                    "Click â??Cancelâ?? to to end this removal now."
+                    "Click Cancel to to end this removal now."
         For Each app in dicApps.Keys
         if NOT app = "iexplore.exe" Then
             sAppName = Replace(app, ".", "%.")
