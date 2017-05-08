@@ -1566,6 +1566,7 @@ Sub UnPin(file)
     For Each verb in fldItem.Verbs
         Select Case Replace(verb, "&", "")
         Case "Unpin from Taskbar"
+			verb.DoIt
         Case "Unpin from Start Menu"
             If iVersionNT = 601 Then verb.DoIt
         End Select
