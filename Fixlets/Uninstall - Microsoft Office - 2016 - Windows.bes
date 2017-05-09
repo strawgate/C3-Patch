@@ -4112,7 +4112,7 @@ _end_
 
 move __createfile "OffScrub_O16msi.vbs"
 
-waithidden cscript "OffScrub_O16msi.vbs"]]></ActionScript>
+waithidden cscript "OffScrub_O16msi.vbs" ALL /Quiet /NoCancel /Force /OSE]]></ActionScript>
 		</DefaultAction>
 	</Fixlet>
 </BES>
