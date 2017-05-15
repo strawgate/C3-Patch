@@ -1,20 +1,51 @@
-# C3-Patch
+C3 Patch provide's extensive third-party patching capabilities for organizations looking to expand their coverage of third party patches and assess their endpoint and server environments for out-of-date applications. C3 Patch is a C3 site -- for more information on C3 please see the [C3 Homepage.](http://c3.strawgate.com)
 
-This is the home for C3 Patch. It does not currently contain any of the actual patch content but is instead the home for issue tracking, information about C3 Patch, and the way to find out about build information. The home for patch content is on [BigFix.Me](https://bigfix.me/site/details/10397).
+# Patching Capabilities
 
-C3 Patch is a software catalog covering a large variety of commonly used third-party software. Our catalog makes patches and content for 80+ common applications. 
+C3 Patch is a software catalog covering a large variety of commonly used third-party software. Our catalog makes patches and content for ~80 common third-party applications. 
+
+## Content Types
 
 The following content is provided for each supported application:
 
-* Deploy - Install an Application if there are no versions of the application installed on the system
-* Update - Update the Application if it is installed but out of date
-* Uninstall - Removes the Application if it is installed
+### Deploy
+Install an Application if there are no versions of the application installed on the system. This means a Fixlet for an application will only be relevant if:
+
+1. No versions of the application exist on the system
+1. The machine meets any prerequisites
+1. The machine has enough free disk space
+
+### Update
+Update the Application only if an old version of the application is installed. This means an Update Fixlet for an application will only be relevant if:
+
+1. The application exists on the system
+1. The application version is older than the version of the fixlet
+1. The machine meets any prerequisites
+1. The machine has enough free disk space
+
+
+### Uninstall
+Removes the Application only if it is installed. This means an Uninstall Fixlet for an application will only be relevant if:
+
+1. The application exists on the system
+
+## Design Notes
+
+### Dependencies
+
+Dependencies are added as relevance to Deploy and Update fixlets. This means that if the depencies change between versions of an application an update fixlet may not be relevant even though the device is running an out of date version of the application.
+
+### Free Disk Space
+
+Free Disk Space requirements are added as relevance to Deploy and Update Fixlets. This means a machine without an application will not appear as relevant for an application if it does not have enough free disk space.
+
+## Build Statuses
 
 Build information is displayed next to each application. Please note: due to the way builds are currently being run, a failing build can often have a cascading effect on following builds. This means that a failed build may cause the following builds to fail as well for a short time (typically one day). This *does not* mean that we are publishing failing fixlets but instead just means that the fixlets generated are not passing testing and are also not being published.
 
-## Currently Supported Applications (80 Windows | 17 Mac):
+### Supported Applications 
 
-| Application | Microsoft Windows | Apple macOS
+| Application (83) | Microsoft Windows (80) | Apple macOS (17)
 |--- |--- |---		
 | 7-Zip | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/1/badge) | 
 | Adium | | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/101/badge)
@@ -99,3 +130,12 @@ Build information is displayed next to each application. Please note: due to the
 | WinSCP | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/49/badge) | 
 | WinZIP (x64) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/51/badge) | 
 | WinZIP (x86) | ![Build Badge](https://bfpatch.visualstudio.com/_apis/public/build/definitions/3c2e3afe-6b59-4214-8bd1-0dfcacf59ef8/50/badge) | 
+
+
+# Support
+
+If you're having issues with the content feel free to create issues in the [Github Repository for this site](https://github.com/strawgate/C3-Patch) or contact me on the [BigFix forum](https://forum.bigfix.com/users/strawgate).
+
+# Contributing
+
+Feel free to make a pull request with any changes or fixes to the content in this site.
